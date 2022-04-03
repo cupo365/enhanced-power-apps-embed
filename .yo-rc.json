@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "enhanced-power-apps-embed",
+    "libraryId": "852ff820-ed3d-41ad-b8df-7d48da53c735",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "enhanced-power-apps-embed",
+    "solutionShortDescription": "enhanced-power-apps-embed description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

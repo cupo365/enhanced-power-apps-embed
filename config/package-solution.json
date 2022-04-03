@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "enhanced-power-apps-embed-client-side-solution",
+    "id": "852ff820-ed3d-41ad-b8df-7d48da53c735",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "cup o'365",
+      "websiteUrl": "https://cupo365.gg",
+      "privacyUrl": "https://cupo365.gg/privacy-policy",
+      "termsOfUseUrl": "https://cup0365.gg/disclaimer",
+      "mpnId": ""
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Pass SharePoint page context to your embedded Power App."
+      },
+      "longDescription": {
+        "default": "Pass SharePoint page context to your embedded Power App."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "enhanced-power-apps-embed Feature",
+        "description": "The feature that activates elements of the enhanced-power-apps-embed solution.",
+        "id": "fa34a204-2e48-4685-bcbc-3cb82f0c0fc4",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/enhanced-power-apps-embed.sppkg"
+  }
+}

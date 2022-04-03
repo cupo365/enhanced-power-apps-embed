@@ -1,0 +1,31 @@
+define([], function() {
+    return {
+      ThemeValuePostLabel: "Je kunt <pre style='display:inline;font-weight:700;'>ColorValue(Param('themevaluename'))</pre> aanroepen in de Power App om de thema kleurwaarden van het geconfigureerde thema op te halen.",
+      ThemeValueFieldLabel: "Thema variant eigenschappen",
+      ThemeValuePreLabel: "Selecteer de themakleuren die je naar de Power App wilt doorgeven. Je kunt dit gebruiken om de app thema bewust te maken.",
+      ThemeGroupName: "Thema",
+      DynamicsPropNameDescriptionLabel: "Hoe wil je de parameter noemen die de dynamische waarde doorgeeft aan de Power App? Bijv.: 'id'",
+      DynamicPropsNameFieldLabel: "Parameter naam",
+      DynamicPropFieldLabel: "Bron dynamische waarde",
+      SelectDynamicSource: "Selecteer de bron voor de dynamische waarde",
+      UseDynamicPropsFieldLabel: "Geef dynamische waarde door als parameter?",
+      DynamicsPropsGroupDescription2: "Let op: de localizering van de pagina wordt standaard meegegeven in de parameters. Je kunt de localizering in de app ophalen door <pre style='display:inline;font-weight:700;'>Param('locale')</pre> aan te roepen.",
+      DynamicsPropsGroupDescription1: "Je kunt een dynamische waarde van de SharePoint context of van andere webparts op deze pagina als parameter doorgeven aan de Power App. Binnen Power Apps kun je <pre style='display:inline;font-weight:700;'>Param('{0}')</pre> aanroepen om de waarden op te halen.",
+      DynamicPropertiesGroupLabel: "Dynamische eigenschappen",
+      WidthFieldLabel: "Breedt",
+      AspectRatioCustomOption: "Op maat",
+      AspectRatioFieldLabel: "Aspect ratio",
+      HeightFieldLabel: "Lengte",
+      LayoutAspectRatioOption: "Formaat proportioneel laten aanpassen",
+      LayoutFixedHeightOption: "Vaste lengte",
+      LayoutFieldLabel: "Gedrag formaat aanpassen",
+      BorderFieldLabel: "Toon rand",
+      AppearanceGroupName: "Uiterlijk",
+      PlaceholderButtonLabel: "Configureer een Power App",
+      PlaceholderDescription: "Embed een Power App op deze pagina met SharePoint context parameters.",
+      PlaceholderIconText: "Enhanced Power Apps embed",
+      PropertyPaneDescription: "Embed een Power App op de pagina door de webkoppeling of het ID hieronder in te vullen.",
+      BasicGroupName: "Standaard configuratie",
+      AppWebLinkFieldLabel: "App webkoppeling of ID"
+    }
+  });
